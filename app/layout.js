@@ -6,6 +6,7 @@ import ClientNavbar from './_components/ClientNavbar';
 import { AuthProvider } from './contexts/authContext';
 
 export const metadata = {
+  manifest: "/manifest.json",
   title: 'FinZ',
   description: 'A simple expense management app',
 }
